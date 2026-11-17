@@ -1,0 +1,18 @@
+/* Base visual neutra. Edite o SCSS e mantenha este arquivo sincronizado. */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; color: #20252b; line-height: 1.6; }
+.novanix-shell { width: min(1120px, calc(100% - 40px)); margin-inline: auto; padding-block: 24px; }
+.novanix-header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
+.novanix-header ul { display: flex; flex-wrap: wrap; gap: 20px; list-style: none; padding: 0; }
+.novanix-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 24px; }
+.novanix-card { border: 1px solid #d9dde2; border-radius: 8px; padding: 20px; }
+img { max-width: 100%; height: auto; }
+a { color: inherit; }
+a:hover { color: #465e79; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.novanix-breadcrumb { display: flex; flex-wrap: wrap; gap: 8px; margin-block: 12px 24px; }
+.novanix-breadcrumb a { font-weight: 400; }
+.novanix-breadcrumb [aria-current="page"] { font-weight: 700; }
+.novanix-footer { border-top: 1px solid #d9dde2; }
+.novanix-skip { position: absolute; left: -10000px; }
+.novanix-skip:focus { position: static; }

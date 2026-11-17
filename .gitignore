@@ -1,0 +1,18 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+
+# Dependências e cache
+node_modules/
+.sass-cache/
+*.map
+
+# Pacotes e arquivos locais
+*.zip
+*.rar
+*.log
+.env
