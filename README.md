@@ -1,5 +1,7 @@
 # Novanix — guia de uso do tema
 
+> Começando um projeto novo? Leia antes o [NOVO-PROJETO.md](docs/NOVO-PROJETO.md).
+
 Base reutilizável para sites institucionais em WordPress. Mantém o método de trabalho: tipos de conteúdo nativos, campos configurados em PHP, páginas com templates próprios, consultas e componentes reutilizáveis. O visual é intencionalmente neutro; não é uma cópia do site de um cliente.
 
 ## 1. O que vem no pacote
@@ -18,7 +20,7 @@ Os exemplos registram estruturas no administrador, mas não criam posts, página
 
 1. Prepare uma instalação WordPress local ou de homologação com PHP 8.0 ou superior. Esta entrega foi verificada com PHP 8.3; mantenha uma versão suportada pela sua hospedagem e pelo WordPress instalado.
 2. Instale o tema pai **Hello Elementor**. A pasta dele deve se chamar `hello-elementor`.
-3. Instale `novanix.zip` em Aparência → Temas → Adicionar tema → Enviar tema. O WordPress instala ZIP, não RAR. Alternativamente, extraia a pasta `novanix` do RAR em `wp-content/themes/`.
+3. Clone o tema a partir do GitHub, conforme a etapa 3 do [NOVO-PROJETO.md](docs/NOVO-PROJETO.md). Não use ZIP ou RAR do tema base.
 4. Ative **Novanix**. Não altere o tema de um site de cliente para testar esta base: use outra instalação.
 5. Em Páginas, crie Home, escolha o modelo **Home**, salve e recarregue o editor. O grupo Apresentação depende do modelo já salvo.
 6. Em Configurações → Leitura, escolha Home como página inicial estática.
@@ -173,3 +175,5 @@ Instrução inicial sugerida para acompanhar o projeto:
 > Use o README e o AGENTS.md desta base. Desenvolva localmente, mantendo o padrão de campos e templates. Não publique sem minha autorização. Antes do layout, mapeie as páginas, os tipos de conteúdo, as taxonomias e quais textos devem ser fixos ou editáveis. Use o editor, título e imagem destacada nativos quando forem adequados.
 
 O tema pai e eventuais bibliotecas/plugins possuem suas próprias licenças. Eles não estão redistribuídos neste pacote. Verifique a licença de qualquer imagem, fonte ou biblioteca que adicionar no próximo cliente.
+
+Este tema é distribuído sob a GNU General Public License v2 ou posterior. Veja o texto completo em [LICENSE](LICENSE).
